@@ -90,6 +90,11 @@ li a{
   font-weight: 700;
 }
 
+.grid-img{
+width: 70%;
+
+}
+
 /* ------------------ HERO ------------------ */
 .benifits{
   padding: 100px;
