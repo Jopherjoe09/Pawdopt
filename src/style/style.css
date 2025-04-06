@@ -1,0 +1,120 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@500&family=Titan+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container{
+  max-width: 1550px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* ----------------------------NAVIGATION---------------------------- */
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: #6DBB48;
+  height: 100px;
+  align-items: center;
+}
+
+
+li{
+  list-style: none;
+  margin: 0 15px;
+}
+
+li a{
+  color: black;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 18px;
+}
+
+.header-img{
+  width: 200px;
+  margin-left: 50px;
+}
+
+.navigation{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 50px;
+}
+
+
+/* ------------------ HERO ------------------ */
+.hero-img{
+  width: 100%;
+}
+
+.hero-header{
+  margin-top: 75px;
+  font-size: 100px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #6DBB48;
+}
+
+.grid-hero-container{
+  padding: 100px;
+  margin-top: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  margin: 0 auto;  
+}
+
+.hero-paragraph{
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.grid-title{
+  font-size: 48px;
+  display: inline-block;
+  margin-bottom: 70px;
+  font-weight: 700;
+}
+
+/* ------------------ HERO ------------------ */
+.benifits{
+  padding: 100px;
+}
+
+.benifits-card{
+  border: solid #CDC094;
+  border-width: 50px;
+  border-radius: 10px 15px 20px 15px;
+  padding: 100px;
+}
+
+.benifits-head{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/* ---------------------------- COMPONENTS ---------------------------- */
+
+.nav-btn:hover, .nav-btn:active{
+  text-decoration: underline;
+  color: #cdcaca;
+}
+
+
+
